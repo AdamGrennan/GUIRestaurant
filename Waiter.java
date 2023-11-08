@@ -38,7 +38,6 @@ public void run() {
 			 }
 		   //Remove all orders once they are completed & allow for new order
 		  list.removeAll(list);
-		  r.confirmOrder.setEnabled(true);
 		
 	   }
    }
