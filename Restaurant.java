@@ -314,7 +314,7 @@ public void actionPerformed(ActionEvent e) {
 				 //Start Waiter Thread and pass orders in list to them
 				Waiter w =  new Waiter(orderList,r);
 				w.start();		
-				confirmOrder.setEnabled(false);
+			
 			 }
 		 }
 
